@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feelings</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="banner">
+        <h1 id="message">Feelings</h1>
+    </div>
+    <div id="intro">
+        <p>This app is using <a href="https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/">
+            Azure Text Analytics API</a> to detect a sentiment from a text.</p>
+        <p>This service is provided by an <a href="https://github.com/Azure/open-service-broker-azure">Open
+            Service Broker connected to Azure services</a>.</p>
+    </div>
+    <div id="form">
+        <form autocomplete="off">
+            <textarea id="text" placeholder="What's on your mind?" required autofocus></textarea>
+            <button id="analyze" type="button">Analyze</button>
+        </form>
+    </div>
+    <div id="feeling"></div>
+    <div id="footer">
+        <p>Curious about how it works? <a href="https://github.com/alexandreroman/feelings">
+            Check out the source code!</a></p>
+        <p>Powered by <a href="https://cloudfoundry.org">Cloud Foundry</a> running on Azure.</p>
+    </div>
+</div>
+</body>
+</html>

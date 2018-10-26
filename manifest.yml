@@ -1,0 +1,9 @@
+---
+applications:
+  - name: feelings
+    path: target/feelings.jar
+    memory: 1G
+    services:
+      - textAnalytics
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack.git
