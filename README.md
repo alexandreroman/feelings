@@ -58,7 +58,7 @@ You're good to go!
 
 ## How it works?
 
-This app is built on the following technologies:
+This app is built with the following technologies:
  - [Spring Boot](https://spring.io/projects/spring-boot) is providing a very effective framework for developping modern apps
  - [Spring Cloud Connectors](https://cloud.spring.io/spring-cloud-connectors/) makes integration with Cloud Foundry easy:
  this app extends SCC in order to connect to Azure Text Analytics API from Cloud Foundry
